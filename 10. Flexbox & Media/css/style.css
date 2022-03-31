@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text::before{
+    content: "1.";
+   
+}
+.text::after{
+    content: "";
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.navbar .link{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+.link::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: 0;
+    height: 2px;
+    width: 0%;
+    background-color: red;
+    transition: .7s;
+}
+.link::before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: red;
+    transition: .7s;
+}
+
+.link:hover::after{
+    width: 100%;
+}
+
+.link:hover::before{
+    width: 100%;
+}
+
+
+#first{
+    width: 40%;
+    height: 300px;
+    background-color: red;
+    position: relative;
+} */
+
+/* #first::after{
+    content: '';
+    position: absolute;
+    bottom: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    clip-path: polygon(0 1%, 50% 100%, 100% 0);
+} */
+
+/* #first::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: -30px;
+    right: -30px;
+    background-color: black;
+    z-index: -11111111111111111111111111;
+} */
+
+/* .btn{
+    margin-top: 40px;
+    background-color: transparent;
+    border: 1px solid red;
+    padding: 14px 60px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    transition: .6s;
+}
+
+.btn::before{
+    z-index: -111111111;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transform: scale(0);
+    transition: .6s;
+    height: 100%;
+    background-image: radial-gradient(#b92b27,#1565C0)
+} */
+
+/* .btn::after{
+    z-index: -111111111;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: 1s;
+    height: 0%;
+    background-color: rgb(96, 243, 11);
+} */
+
+/* .btn:hover::before{
+    transform: scale(1);
+}
+
+.btn:hover::after{
+    height: 100%;
+}
+.btn:hover{
+    color: white;
+} */
+
+/* .all{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 10px solid green;
+    height: 500px;
+    align-items: center;
+}
+
+
+.box{
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    border: 4px solid;
+} */
+
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+ .box{
+    margin-top: 20px;
+    width: 23%;
+}
+
+.box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+header{
+}
+
+header .all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.navbar1{
+    text-align: right;
+}
+
+#phone-header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+    padding: 20px 0;
+}
+
+#phone-header img{
+    width: 70%;
+}
+
+#phone-header .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#phone-header .all i{
+    font-size: 25px;
+}
+
+/* h1{
+    font-size: 80px;
+} */
+
+/* Media Queries */
+
+@media(max-width:576px) {
+    .all .box{
+        width: 100%;
+    }
+
+    .container{
+        padding: 0 1rem;
+    }
+   
+    header{
+        display: none;
+    }
+
+    #phone-header{
+        display: block;
+    }
+    
+    h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .all .box{
+        width: 45%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+    .all .box{
+        width: 30%;
+    }
+}
+

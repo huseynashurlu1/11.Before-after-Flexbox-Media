@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 2rem;
+}
+
+.header-top{
+    background-color: #f6f7f8;
+    padding: 15px 0;
+   
+}
+
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top a{
+    font-family: MainFont,sans-serif;
+    color: #666;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.career{
+    border: 2px solid #0056c1;
+    color: #0056c1 !important;
+    border-radius: 30px;
+    padding: 4px 9px;
+    transition: .5s;
+}
+
+.career:hover{
+    background-color: #0056c1;
+    color: #fff;
+}
+
+.header-top .right{
+    display: flex;
+    align-items: center;
+}
+
+.header-top .right span{
+    font-size: 13px;
+    color: #666;
+    padding-left: 6px;
+}
+
+.header-top .right select{
+  margin: 0 15px;
+  background-color: transparent;
+  border: none;
+  color: #666;
+  font-size: 12px;
+}
+
+
+.header-center{
+    padding: 15px 0;
+}
+
+.header-center .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hc-left{
+    width: 15%;
+}
+
+.hc-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.hcr-right{
+    display: flex;
+    align-items: center;
+}
+.hcr-right a{
+    margin-left: 6px;
+}
+
+.header-bottom a{
+    font-size: 16px;
+    color: #000;
+    margin-right: 15px;
+    padding: 20px 0;
+}
+
+.link{
+    position: relative;
+}
+
+.link::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-radius: 10px;
+    transition: .5s;
+    height: 3px;
+    background-color: #0056c1;
+}
+
+.link:hover::before{
+    width: 100%;
+}
+
+#Slider{
+    margin-top: 1rem;
+    background: linear-gradient(90deg, #E1EBFF 9.88%, #AFB9CD 92.09%);
+}
+
+.s-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-all .right{
+    width: 45%;
+}
+
+.s-all .right img{
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: MainFont;
+    src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
